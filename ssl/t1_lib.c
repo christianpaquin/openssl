@@ -253,13 +253,13 @@ static const unsigned char ecformats_default[] = {
 
 /* The default curves */
 static const uint16_t eccurves_default[] = {
+    0x0300,                  /* p256 - OQS frodo640aes hybrid */
+    0x031F,                  /* p256 - OQS sikep434 hybrid */
     29,                      /* X25519 (29) */
     23,                      /* secp256r1 (23) */
     30,                      /* X448 (30) */
     25,                      /* secp521r1 (25) */
     24,                      /* secp384r1 (24) */
-    0x0300,                  /* p256 - OQS frodo640aes hybrid */
-    0x031F,                  /* p256 - OQS sikep434 hybrid */
 };
 
 static const uint16_t suiteb_curves[] = {
