@@ -11,6 +11,9 @@ environment:
     matrix:
         - VSVER: 15
 
+init:
+  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+
 configuration:
     - shared
     - plain
