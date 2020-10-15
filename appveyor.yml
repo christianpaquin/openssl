@@ -1,4 +1,4 @@
-# original appveyor config with oqs tests
+# original appveyor config with oqs tests.
 image:
   - Visual Studio 2019
 
