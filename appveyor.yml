@@ -42,7 +42,7 @@ before_build:
             $env:OQSSHARED="OFF"
         }
     - call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" %VCVARS_PLATFORM%
-    # build oqs
+    # build liboqs
     - git clone --branch master https://github.com/open-quantum-safe/liboqs.git
     - cd liboqs
     - mkdir oqsbuild
